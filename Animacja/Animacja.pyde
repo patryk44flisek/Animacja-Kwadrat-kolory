@@ -4,7 +4,7 @@ def setup():
     global pos1
     global pos2
     pos1=0
-    pos2=175
+    pos2=175  # dlaczego akurat tyle, a nie z użyciem wbudowanej zmiennej?
 def draw():
     background(255)
     global pos1
